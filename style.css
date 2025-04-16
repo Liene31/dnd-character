@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cardo", serif;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Cinzel", serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+img {
+  width: 45px;
+}
