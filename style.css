@@ -46,6 +46,12 @@ li {
   border-radius: 5px;
 }
 
+.bold {
+  font-family: "Cinzel", serif;
+  font-weight: bold;
+  color: black;
+}
+
 img {
   width: 45px;
   padding: 4px;
