@@ -4,6 +4,7 @@ body {
   font-family: "Cardo", serif;
   background-color: #3e1c23;
   color: #f5eee6;
+  font-size: 0.85rem;
 }
 
 .container {
@@ -15,6 +16,19 @@ h1,
 h2,
 h3 {
   font-family: "Cinzel", serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.3rem;
+}
+
+h2,
+h3 {
+  font-size: 1rem;
+}
+
+p {
   text-align: center;
 }
 
