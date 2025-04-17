@@ -4,7 +4,7 @@ body {
   font-family: "Cardo", serif;
   background-color: #3e1c23;
   color: #f5eee6;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
 }
 
 .container {
@@ -20,16 +20,21 @@ h3 {
 }
 
 h1 {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 h2,
 h3 {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 p {
   text-align: center;
+}
+
+.flex-content {
+  display: flex;
+  flex-direction: column;
 }
 
 ul {
@@ -50,6 +55,7 @@ li {
   font-family: "Cinzel", serif;
   font-weight: bold;
   color: black;
+  font-size: 1.2rem;
 }
 
 img {
