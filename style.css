@@ -76,7 +76,7 @@ img {
   background-color: #2a1117;
   color: #ffffff;
   width: 350px;
-  height: 450px;
+  height: 500px;
   border-radius: 5px;
 }
 
@@ -96,6 +96,12 @@ img {
 .modal-close-btn:hover {
   opacity: 0.33;
   cursor: pointer;
+  /* cursor: not-allowed; */
+}
+
+.modal-inner {
+  width: 290px;
+  margin: 0 auto;
 }
 
 .modal-header {
@@ -107,4 +113,36 @@ img {
   font-size: 1rem;
   text-align: center;
   padding: 0 25px;
+}
+
+/* Form */
+
+input {
+  width: 100%;
+  padding: 5px 0;
+  margin-bottom: 7px;
+}
+
+input[type="text"],
+input[type="email"] {
+  font-family: "Cardo", serif;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #2a1117;
+}
+
+.modal-choice-btns {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.modal-btn {
+  padding: 8px 25px;
+  cursor: pointer;
+  font-family: "Cardo", serif;
+  font-weight: bold;
 }
