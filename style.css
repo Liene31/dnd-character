@@ -63,3 +63,48 @@ img {
   width: 45px;
   padding: 4px;
 }
+
+/* Modal */
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: #2a1117;
+  color: #ffffff;
+  width: 350px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.modal-close-btn-container {
+  text-align: right;
+}
+
+.modal-close-btn {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 9px;
+}
+
+.modal-close-btn:hover {
+  opacity: 0.33;
+  cursor: pointer;
+}
+
+.modal-header {
+  font-family: "Cardo", serif;
+  font-size: 1.2rem;
+}
+
+.modal-p {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0 25px;
+}
