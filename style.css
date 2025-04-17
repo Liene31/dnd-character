@@ -67,6 +67,7 @@ img {
 /* Modal */
 
 .modal-container {
+  display: none;
   position: fixed;
   top: 0;
   right: 0;
@@ -95,8 +96,8 @@ img {
 
 .modal-close-btn:hover {
   opacity: 0.33;
-  cursor: pointer;
-  /* cursor: not-allowed; */
+  /* cursor: pointer; */
+  cursor: not-allowed;
 }
 
 .modal-inner {
