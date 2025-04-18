@@ -43,5 +43,7 @@ modalForm.addEventListener("submit", function (event) {
       </p>
       <img class="devil-laughing-gif" src="images/devil-laughing.gif" />
           `;
+
+    modalCloseBtn.disabled = false;
   }, 4000);
 });
