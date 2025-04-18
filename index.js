@@ -28,9 +28,9 @@ modalForm.addEventListener("submit", function (event) {
     document.getElementById(
       "modal-loading-p"
     ).textContent = `secrets sold.... the pact is made....`;
-  }, 1500);
+  }, 1800);
 
   setTimeout(function () {
     modal.textContent = `TEST`;
-  }, 3000);
+  }, 4000);
 });
