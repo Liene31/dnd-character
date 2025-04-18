@@ -1,12 +1,10 @@
 const modal = document.getElementById("modal");
 const modalCloseBtn = document.getElementById("modal-close-btn");
 const modalForm = document.getElementById("modal-form");
-// const acceptBtn = document.getElementById("accept-btn");
 const modalParagraph = document.getElementById("modal-p");
 const modalInner = document.getElementById("modal-inner");
-
-// Currently with cusrsor NOT ALLOWED still can close the window
-// Need to change the cursor to pointer when allowed to close
+const declineBtn = document.getElementById("decline-btn");
+const modalChoiceBtns = document.getElementById("modal-choice-btns");
 
 setTimeout(function () {
   modal.style.display = "inline";
@@ -14,6 +12,11 @@ setTimeout(function () {
 
 modalCloseBtn.addEventListener("click", function () {
   modal.style.display = "none";
+});
+
+declineBtn.addEventListener("mouseenter", function () {
+  console.log("hover");
+  modalChoiceBtns.classList.toggle("revers-btn");
 });
 
 modalForm.addEventListener("submit", function (event) {

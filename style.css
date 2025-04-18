@@ -144,6 +144,10 @@ input::placeholder {
   margin-top: 10px;
 }
 
+.revers-btn {
+  flex-direction: row-reverse;
+}
+
 .modal-btn {
   padding: 8px 25px;
   cursor: pointer;
@@ -170,7 +174,7 @@ input::placeholder {
 
 .devil-laughing-gif {
   display: block;
-  margin: auto;
+  margin: 35px auto;
   width: 250px;
   border-radius: 8px;
   box-shadow: 1px 1px 8px red;
