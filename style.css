@@ -147,3 +147,15 @@ input::placeholder {
   font-family: "Cardo", serif;
   font-weight: bold;
 }
+
+/* After user has pressed Accept */
+
+.modal-loading-img {
+  width: 150px;
+}
+
+.modal-loading-p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 0.8rem;
+}

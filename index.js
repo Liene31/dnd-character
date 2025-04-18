@@ -18,6 +18,19 @@ modalCloseBtn.addEventListener("click", function () {
 modalForm.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  // not working correctly
-  modalParagraph.textContent = "Hello";
+  modalParagraph.innerHTML = `
+  <div class="modal-inner-loading">
+    <img class="modal-loading-img" src="images/dnd_loading.gif" />
+    <p class="modal-loading-p bold" id="modal-loading-p">Uploading your data to the dark web...</p>
+</div>`;
+
+  setTimeout(function () {
+    document.getElementById(
+      "modal-loading-p"
+    ).textContent = `secrets sold.... the pact is made....`;
+  }, 1500);
+
+  setTimeout(function () {
+    modal.textContent = `TEST`;
+  }, 3000);
 });
